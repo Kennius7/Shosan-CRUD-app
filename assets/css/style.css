@@ -1,0 +1,37 @@
+
+:root{
+    --dark: #2b2d42;
+    --light: #adb5bd;
+    --border: #dee2e6;
+    --border-button: #edf2f4;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.nav-brand{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
