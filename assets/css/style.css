@@ -1,9 +1,13 @@
+@font-face {
+    font-family: Ubuntu Medium Italics;
+    src: url(/assets/FontsFolder/Ubuntu/Ubuntu-MediumItalic.ttf);
+}
 
 :root{
     --dark: #2b2d42;
     --light: #adb5bd;
     --border: #dee2e6;
-    --border-button: #edf2f4;
+    --border-btn: #edf2f4;
 }
 
 *{
@@ -14,7 +18,7 @@
 
 a{
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Ubuntu Medium Italics;
 }
 
 .container{
@@ -32,6 +36,34 @@ a{
     flex-wrap: wrap;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
 
+.text-center{
+    text-align: center;
+}
 
+.border-shadow{
+    border: 1px solid var(--border-btn);
+    box-shadow: 1px 3px 10px #8897a7;
+}
 
+.text-dark{
+    color: var(--dark);
+}
+
+.text-light{
+    color: var(--light);
+}
+
+.inline{
+    display: inline-block;
+}
+
+.text-gradient{
+    background: linear-gradient(to right, #1771cc, #ac07ee);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
